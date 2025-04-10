@@ -22,7 +22,7 @@ public class Book
 
 class Program
 {
-    static string filePath = "books.json";
+    static string filePath = "./books.json";
 
     static readonly string[] Authors = {"Mykola", "Illia", "Denis"};
     static readonly object lockObj = new object();
